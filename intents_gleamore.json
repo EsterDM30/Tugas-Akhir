@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "informasi_layanan",
+      "patterns": [
+        "Apa saja layanan yang tersedia di PT. Gleamore Digital Solution?",
+        "Apakah Gleamore menyediakan layanan desain logo bisnis?",
+        "Apakah tersedia layanan manajemen media sosial?",
+        "Apakah bisa pesan website dan desain sekaligus?",
+        "Apakah Gleamore menerima proyek custom sesuai kebutuhan klien?"
+      ],
+      "responses": [
+        "Kami siap bantu kamu membuat website profesional dan mengelola digital marketing 🚀"
+      ]
+    },
+    {
+      "tag": "prosedur_penggunaan",
+      "patterns": [
+        "Bagaimana alur pemesanan layanan?",
+        "Apakah saya harus datang langsung untuk memesan layanan?",
+        "Apakah saya dapat mengajukan revisi selama pengerjaan?",
+        "Apakah ada form brief yang harus diisi?",
+        "Kapan saya akan menerima draft awal dari layanan yang dipesan?"
+      ],
+      "responses": [
+        "Anda dapat menghubungi kami, konsultasi kebutuhan, mengisi form brief, menerima penawaran, lalu proyek akan kami mulai."
+      ]
+    },
+    {
+      "tag": "prosedur_transaksi",
+      "patterns": [
+        "Bagaimana sistem pembayaran di Gleamore?",
+        "Apa saja metode pembayaran yang diterima?",
+        "Apakah harga sudah termasuk hosting dan domain?",
+        "Apakah bisa bayar cicilan atau bertahap?",
+        "Apakah ada invoice resmi?"
+      ],
+      "responses": [
+        "Kami menerima transfer bank dan e-wallet tertentu (seperti OVO atau Dana, jika tersedia)."
+      ]
+    },
+    {
+      "tag": "informasi_kontak",
+      "patterns": [
+        "Bagaimana saya bisa menghubungi tim PT. Gleamore Digital Solution?",
+        "Apakah ada nomor WhatsApp resmi Gleamore?",
+        "Apakah saya bisa berkonsultasi langsung via telepon?",
+        "Di mana alamat kantor PT. Gleamore Digital Solution?",
+        "Berapa lama respons dari admin jika saya kirim pesan di luar jam kerja?"
+      ],
+      "responses": [
+        "Anda dapat menghubungi kami melalui WhatsApp, email, atau formulir di website resmi kami."
+      ]
+    },
+    {
+      "tag": "waktu_operasional",
+      "patterns": [
+        "Kapan jam operasional PT. Gleamore Digital Solution?",
+        "Apakah bisa berkonsultasi di hari Sabtu?",
+        "Apakah saya bisa memesan layanan di hari Minggu?",
+        "Apakah admin online di luar jam kerja?",
+        "Apakah jam kerja bisa menyesuaikan zona waktu klien?"
+      ],
+      "responses": [
+        "Senin–Jumat: 09.00–17.00, Sabtu: 09.00–13.00. Minggu & hari libur nasional: Libur."
+      ]
+    },
+    {
+      "tag": "waktu_pengerjaan",
+      "patterns": [
+        "Berapa lama waktu pengerjaan website standar?",
+        "Apakah waktu pengerjaan bisa lebih cepat?",
+        "Apakah revisi memperpanjang durasi proyek?",
+        "Apakah saya bisa memilih tanggal mulai pengerjaan?",
+        "Bagaimana jika saya terlambat memberikan data?"
+      ],
+      "responses": [
+        "Rata-rata 2–4 minggu, tergantung pada jenis layanan dan kelengkapan data."
+      ]
+    },
+    {
+      "tag": "harga_estimasi",
+      "patterns": [
+        "Berapa harga paket website termurah di Gleamore?",
+        "Apakah harga bisa disesuaikan dengan kebutuhan?",
+        "Apakah harga sudah termasuk revisi dan maintenance?",
+        "Apakah ada biaya tambahan setelah proyek berjalan?",
+        "Apakah saya bisa minta estimasi biaya terlebih dahulu?"
+      ],
+      "responses": [
+        "Paket Website Mulai Rp1,5 Juta!"
+      ]
+    },
+    {
+      "tag": "teknologi_tools",
+      "patterns": [
+        "Teknologi apa saja yang digunakan untuk pengembangan website?",
+        "Apakah Gleamore menggunakan platform e-commerce?",
+        "Apakah ada penggunaan tools desain profesional?",
+        "Apakah SEO termasuk dalam teknologi yang digunakan?"
+      ],
+      "responses": [
+        "Kami menggunakan HTML, CSS, atau CMS seperti WordPress."
+      ]
+    },
+    {
+      "tag": "ketentuan_revisi",
+      "patterns": [
+        "Apakah revisi termasuk dalam harga layanan?",
+        "Apakah saya bisa minta revisi setelah proyek selesai?",
+        "Apa saja yang termasuk revisi minor?",
+        "Apakah saya bisa mengajukan revisi desain sebelum tahap final?",
+        "Berapa lama waktu yang diberikan untuk merevisi hasil kerja?"
+      ],
+      "responses": [
+        "Jumlah revisi tergantung pada paket layanan yang Anda pilih."
+      ]
+    },
+    {
+      "tag": "kebijakan_kerjasama",
+      "patterns": [
+        "Apakah ada kontrak kerja sama yang disiapkan?",
+        "Bagaimana proses tanda tangan kerja sama dilakukan?",
+        "Apakah semua hak cipta diserahkan ke klien?",
+        "Apakah saya bisa membatalkan proyek setelah dimulai?",
+        "Apakah kerja sama bisa diperpanjang untuk layanan lain?"
+      ],
+      "responses": [
+        "Kami menyiapkan kontrak kerja sama yang mencakup scope, timeline, dan pembayaran."
+      ]
+    }
+  ]
+}

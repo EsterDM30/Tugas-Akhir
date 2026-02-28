@@ -1,0 +1,881 @@
+{
+"intents":
+[{
+    "tag" : "Salam",
+    "patterns" : [
+        "halo",
+        "hai",
+        "hola",
+        "hello",
+        "hei",
+        "hi",
+        "halo teman",
+        "halo acabot",
+        "halo bot",
+        "permisi, halo",
+        "apakah kamu ada",
+        "halo bot, bisa ngobrol",
+        "bisa bicara",
+        "permisi",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "selamat malam",
+        "assamualaikum",
+        "shalom",
+        "apakah ini chatbot baa"
+    ],
+    "responses" : [
+        "Halo, Selamat datang di Chatbot BAA Institut Asia Malang, Saya dapat membantu kamu untuk mendapatkan informasi akademik, silahkan tuliskan hal yang ingin kamu tahu  - Tim BAA",
+        "Selamat datang di Chatbot Biro Administrasi Akademik Institut Asia Malang - Tim BAA"
+    ]
+},
+{
+    "tag" : "Tanya",
+    "patterns" : [
+        "saya ingin bertanya",
+        "aku mau nanya",
+        "aku mau tanya",
+        "mau tanya",
+        "mau nanya",
+        "aku bingung",
+        "aku boleh tanya sesuatu",
+        "bingung nih mau tanya ke kamu boleh ngga",
+        "saya bingung",
+        "apakah saya boleh bertanya",
+        "apakah aku boleh nanya",
+        "mau nanya ke baa gimana ya caranya",
+        "jika saya ingin bertanya jam berapa pun apa bisa"
+    ],
+    "responses" :[
+        "Silahkah bertanya, kami siap membantu."
+    ]
+},
+{
+    "tag" : "Penutup",
+    "patterns" : [
+        "terima kasih",
+        "selamat tinggal",
+        "terimakasih",
+        "terima kasih bantuannya",
+        "terima kasih infonya",
+        "sampai jumpa lagi",
+        "terima kasih informasinya",
+        "baik terima kasih",
+        "dadah",
+        "sampai bertemu lagi",
+        "aku pergi",
+        "dah",
+        "makasi",
+        "makasih",
+        "makasih ya"
+    ],
+    "responses" : [
+        "Terima kasih sudah menggunakan layanan ini - Tim BAA"
+    ]
+},
+{
+    "tag" : "Nama",
+    "patterns" : [
+        "nama",
+        "siapa nama anda",
+        "apakah anda mempunyai nama",
+        "apakah kamu punya nama",
+        "siapa kamu",
+        "dengan siapa ini",
+        "dengan siapa aku berbicara",
+        "apa kamu ini",
+        "bagaimana aku memanggilmu",
+        "siapa ini"
+    ],
+    "responses" : [
+        "Saya AcaBot Asia dari Tim Layanan Biro Administrasi Akademik :)"
+    ]
+},
+{
+    "tag": "Jam_Kampus",
+    "patterns": [
+      "Kampus buka",
+      "Kampus tutup",
+      "Kapan kampus buka",
+      "Kampus buka nya kapan",
+      "Kampus buka hari apa",
+      "Apakah kampus buka setiap hari",
+      "Pada hari apa saja kampus buka",
+      "Kampus dibuka dihari apa dan jam berapa",
+      "Apa kampus buka sekarang",
+      "Kampus buka jam berapa",
+      "Kampus buka pukul berapa",
+      "hari biasa kampus buka jam berapa",
+      "akhir pekan apakah kampus buka",
+      "Hari sabtu dan minggu apakah kampus buka",
+      "Apakah kampus buka hari sabtu dan minggu",
+      "hari senin sampai jumat kampus buka jam berapa",
+      "Kampus bukanya jam berapa",
+      "apakah hari libur kampus buka",
+      "Apakah kampus buka saat hari libur nasional",
+      "Kampus dari jam berapa sampai jam berapa",
+      "Apakah kampus buka di hari Sabtu",
+      "Apakah kampus buka di tanggal merah",
+      "Kapan saya harus datang ke kampus",
+      "Kampus tutup jam berapa",
+      "Berapa lama kampus buka setiap hari",
+      "Hari Sabtu kampus buka sampai jam berapa",
+      "Apakah kampus buka pada malam hari",
+      "Apakah saya bisa datang ke kampus di sore hari",
+      "Jam operasional kampus",
+      "Jam operasional kampus dimulai pukul berapa",
+      "Apa jam operasional kampus berbeda di hari Sabtu"
+    ],
+    "responses": [
+      "Kampus buka di jam 07.00 - 21.00 hari Senin - Sabtu & Kampus tutup pada tanggal merah dan perayaan hari besar."
+    ]
+},
+{
+    "tag": "Jam_BAA",
+    "patterns": [
+      "Jam operasi dari BAA",
+      "Jam berapa Biro Administrasi Akademik beroprasi",
+      "Jam berapa Biro Administrasi beroprasi",
+      "Kapan BAA beroperasi",
+      "Apakah BAA buka di hari Sabtu",
+      "Jam pelayanan administrasi kampus apa saja",
+      "Kapan saya bisa mengurus KRS",
+      "Apa BAA buka di akhir pekan",
+      "Apa jam layanan akademik sudah dimulai",
+      "Jam layanan akademik kampus",
+      "Apa ada jam layanan khusus pada hari tertentu",
+      "Kapan BAA buka",
+      "Jam berapa BAA buka",
+      "BAA buka jam berapa"
+    ],
+    "responses": [
+      "Jam layanan BAA tersedia pada 08.00 - 20.00 offline maupun online"
+    ]
+},
+{
+    "tag" : "Jadwal_KRS",
+    "patterns" : [
+        "Kapan KRSan",
+        "Kapan saya bisa memilih KRS",
+        "Apakah masih belum bisa mengajukan KRS",
+        "Kapan bisa mengajukan KRS",
+        "Info KRS",
+        "Jadwal KRS",
+        "KRS tanggal berapa",
+        "Kapan KRS untuk semester depan",
+        "Kapan waktu untuk KRS",
+        "KRS untuk angkatan kapan",
+        "Apakah KRS sudah dibuka",
+        "Kapan pengisian KRS dimulai",
+        "KRS bulan apa",
+        "Bulan apa KRS an semester ganjil",
+        "Bulan apa KRS an semester genap",
+        "Apa jadwal KRS sudah diumumkan",
+        "Bagaimana cara mengecek jadwal KRS yang sudah diumumkan",
+        "Bagaimana saya tahu jadwal KRS",
+        "krs mulai dari tanggal berapa",
+        "Dimana saya bisa melihat jadwal KRS",
+        "Kapan bisa memilih mata kuliah KRS",
+        "Kapan pengisian KRS semester genap",
+        "Kapan waktu KRS semester ganjil",
+        "KRS semester ganjil kapan",
+        "krs semester genap kapan",
+        "Kapan mulai bisa KRS",
+        "Apakah pengisian KRS bisa dilakukan sekarang",
+        "Kapan batas akhir pengisian KRS",
+        "Apa jadwal pengisian KRS sudah tersedia",
+        "Kapan mahasiswa bisa KRS-an",
+        "Apakah KRS semester ini sudah dibuka",
+        "Jadwal pengisian KRS semester ini kapan",
+        "Kapan periode KRS dibuka",
+        "Kapan batas waktu untuk KRS"
+    ],
+    "responses" : [
+        "Jadwal KRS semester ganjil TA 2024/2025 dilakukan pada 09 September - 13 September 2024, Jadwal KRS semester genap TA 2024/2025 dilakukan pada 24 Februari - 28 Maret 2025, untuk informasi lebih detail bisa dilihat melalui Kalender Akademik di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/#kalender'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "Prosedur_KRS",
+    "patterns" : [
+        "KRS",
+        "KRS-an",
+        "mau krs an, gimana caranya",
+        "Bagaimana cara mengajukan KRS",
+        "Prosedur pembayaran KRS",
+        "Prosedur KRS",
+        "cara daftar krs",
+        "cara krs",
+        "info cara daftar KRS",
+        "informasi daftar krs",
+        "bagaimana cara krs",
+        "Bagaimana cara KRS dengan metode simpel",
+        "Bagaimana cara KRS dengan cepat",
+        "bagaimana cara daftar krs",
+        "gimana cara daftar krs",
+        "Bagaimana mengisi krs",
+        "Setelah KRS selesai apa yang harus saya lakukan",
+        "Setelah pembayaran KRS selesai apa yang harus saya lakukan",
+        "bagaimana cara melakukan krs",
+        "Gimana cara mengajukan KRS",
+        "Bagaimana prosedur pengajuan KRS tanpa harus ke BAA",
+        "Cara untuk KRS gimana",
+        "Cara dan prosedur melakukan KRS",
+        "apakah bisa memilih jadwal KRS sendiri",
+        "langkah - langkah krs gimana",
+        "Saya mau KRS, apa yang harus dilakukan",
+        "Gimana prosedur KRS semester ini",
+        "Gimana cara isi KRS",
+        "Apa saja syarat KRS",
+        "Langkah pengajuan KRS online",
+        "Saya bingung cara KRS, bantu dong",
+        "KRS semester baru mulai dari mana",
+        "KRS harus bayar dulu atau isi dulu",
+        "Konfirmasi KRS itu di mana ya",
+        "Apa saja tahapan KRS semester ini",
+        "Bolehkah tanya prosedur pengisian KRS",
+        "KRS online gimana caranya",
+        "Tunjukkan cara mengisi krs"
+    ],
+    "responses" : [
+        "Prosedur KRS:<br>1. Lakukan pengajuan KRS sesuai dengan mata kuliah yang akan diambil di SIMAKA ASIA<br>2. Minta Dosen Wali untuk ACC pengajuan KRS<br>3. Lakukan pembayaran KRS semester<br>4. Terkhusus Angkatan 2021 keatas, konfirmasi pembayaran di FO<br>5. Pilih jadwal sesuai dengan mata kuliah yang telah diajukan"
+    ]
+},
+{
+    "tag" : "Kalender",
+    "patterns" : [
+        "dimana bisa lihat kalender akademik",
+        "kalender akademik dapat dilihat dimana",
+        "mau kalender akademik",
+        "lihat kalender akademik",
+        "minta kalender akademik",
+        "info kalender akademik",
+        "kalender akademik",
+        "kalender kampus",
+        "kalender akademik resmi kampus",
+        "link kalender akademik",
+        "kalender akademik semester ganjil",
+        "kalender akademik semester genap",
+        "tolong kirim kalender akademik",
+        "minta kalender akademik",
+        "saya ingin lihat kalender akademik"
+    ],
+    "responses" : [
+        "Informasi mengenai kalender akademik bisa kamu akses pada link berikut : <a target='_blank' href='https://akademik.asia.ac.id/#kalender'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "Kapan_UAS",
+    "patterns" :[
+        "kapan uas",
+        "kapan ujian akhir semester",
+        "jadwal uas",
+        "jadwal uas semester ganjil kapan",
+        "uas dimulai kapan",
+        "tanggal berapa uas",
+        "uas semester ini kapan",
+        "kapan pelaksanaan uas",
+        "uasnya kapan ya",
+        "ujian akhir semester mulai kapan",
+        "jadwal ujian akhir semester",
+        "tolong info kapan uas",
+        "bisa kasih tau jadwal uas",
+        "kapan mulai uas",
+        "uas semester ganjil kapan",
+        "uas semester genap kapan"
+    ],
+    "responses" :[
+        "Jadwal UAS semester ganjil TA 2024/2025 dilakukan pada 20 Januari - 26 Januari 2025 <br>Jadwal UAS semester genap TA 2024/2025 dilakukan pada 07 Juli - 13 Juli 2025"
+    ]
+},
+{
+    "tag" : "Kapan_UTS",
+    "patterns" :[
+        "kapan uts",
+        "kapan ujian tengah semester",
+        "jadwal uts",
+        "uts dimulai kapan",
+        "tanggal berapa uts",
+        "uts semester ini kapan",
+        "kapan pelaksanaan uts",
+        "utsnya kapan ya",
+        "Uts semester ganjil dilakukan bulan apa",
+        "Uts semester genap dilakukan bulan apa",
+        "ujian tengah semester mulai kapan",
+        "jadwal ujian tengah semester",
+        "tolong info kapan uts",
+        "bisa kasih tau jadwal uts",
+        "kapan mulai uts",
+        "uts semester ganjil kapan",
+        "uts semester genap kapan"
+    ],
+    "responses" :[
+        "Jadwal UTS semester ganjil TA 2024/2025 dilakukan pada 18 November - 24 November 2024 <br>Jadwal UTS semester genap TA 2024/2025 dilakukan pada 12 Mei - 18 Mei 2025"
+    ]
+},
+{
+    "tag" : "Remidi",
+    "patterns" :[
+        "kapan remidi",
+        "jadwal remidi",
+        "remidi dimulai kapan",
+        "tanggal berapa remidi",
+        "remidi semester ini kapan",
+        "kapan pelaksanaan remidi",
+        "remidinya kapan ya",
+        "ujian remidi kapan",
+        "remidi mulai kapan",
+        "kapan jadwal remidi keluar",
+        "bisa kasih tau jadwal remidi",
+        "tolong info kapan remidi",
+        "remidi semester ganjil kapan",
+        "remidi semester genap kapan",
+        "Bagaimana solusi nilai mata kuliah yang masih belum memenuhi"
+    ],
+    "responses" :[
+        "Jadwal Remidi semester ganjil TA 2024/2025 dilakukan pada 27 Januari - 08 Februari 2025 <br>Jadwal Remidi semester genap TA 2024/2025 dilakukan pada 14 Juli - 26 Juli 2025"
+    ]
+},
+{
+    "tag" : "Libur_Semester",
+    "patterns" :[
+        "Kapan libur semester",
+        "Libur semester dimulai tanggal berapa",
+        "Jadwal libur semester kapan ya",
+        "Apakah sekarang sudah libur semester",
+        "Liburnya sampai kapan",
+        "Kapan masuk setelah libur semester",
+        "Semester ini liburnya kapan ya",
+        "Udah mulai libur belum",
+        "Libur semester berapa lama",
+        "Kapan terakhir masuk sebelum libur semester",
+        "Kapan perkuliahan libur",
+        "Informasi tentang tanggal dan hari libur yang pasti",
+        "Kapan libur sesuai kalender akademik dari kampus",
+        "Apakah minggu depan sudah libur semester",
+        "Berapa lama libur semester",
+        "Kapan mahasiswa mulai libur semester",
+        "Libur akhir semester kapan mulainya",
+        "Kapan mulai libur kuliah",
+        "Libur kuliah mulai tanggal berapa",
+        "Apakah hari ini sudah mulai libur semester",
+        "Libur semester genap kapan",
+        "Libur semester ganjil kapan",
+        "Libur semester ganjil tanggal berapa",
+        "Libur semester genap tanggal berapa",
+        "Libur tahun ajaran baru kapan",
+        "Libur natal kapan",
+        "Libur tahun baru kapan",
+        "Libur idul fitri kapan",
+        "Libur mudik kapan",
+        "Libur hari raya kapan",
+        "Kapan libur hari besar"
+    ],
+    "responses" :[
+        "Informasi Libur Semester Ganjil:<br>1. Libur Natal dan Tahun Baru berlangsung pada tanggal 25 Desember 2024 - 1 Januari 2025.<br>2. Libur transisi ke semester genap berlangsung pada tanggal 26 Januari - 9 Maret 2025.<br><br>Informasi Libur Semester Genap:<br>1. Libur Idul Fitri berlangsung pada tanggal 24 Maret - 06 April 2025.<br>2. Libur transisi tahun ajaran baru berlangsung mulai tanggal 13 Juli 2025."
+    ]
+},
+{
+    "tag" : "KHS",
+    "patterns" : [
+        "Berapa IP saya",
+        "Berapa IP saya semester ini",
+        "Berapa nilai matkul saya",
+        "Lihat nilai semester ini dimana",
+        "IPK saya berapa",
+        "Lihat detail nilai matkul dimana",
+        "KHS",
+        "Info nilai",
+        "Info KHS",
+        "Mau cek nilai semester",
+        "Mau lihat nilai semester",
+        "Mau lihat khs",
+        "Kenapa nilai saya belum muncul",
+        "Apa nilai semester ini belum muncul",
+        "Di mana saya bisa melihat nilai saya",
+        "Apa saya sudah bisa melihat nilai semester ini",
+        "Bagaimana cara melihat nilai KHS",
+        "Bagaimana cara melihat nilai di SIMAKA",
+        "Apakah IP semester ini sudah keluar",
+        "Kenapa nilai saya belum diupdate",
+        "Bagaimana mengecek nilai saya",
+        "Di mana melihat nilai KHS saya",
+        "Nilai saya belum terlihat, kenapa",
+        "Bagaimana cara cek IP semester ini",
+        "Apa IPK saya sudah update",
+        "Nilai semester lalu saya ada dimana",
+        "Dimana cek IP semester saya",
+        "Kenapa KHS saya masih kosong",
+        "Apakah nilai matkul sudah diumumkan",
+        "Bagaimana mengetahui IP saya sekarang",
+        "Apa semua nilai sudah lengkap di KHS"
+    ],
+    "responses" : [
+        "Informasi mengenai nilai Kartu Hasil Studi bisa kamu akses pada website SIMAKA Asia : <a target='_blank' href='https://simaka.asia.ac.id/'>Klik tautan ini</a>, kemudian lihat pada menu KHS"
+    ]
+},
+{
+    "tag" : "Yudisium",
+    "patterns" : [
+        "gimana cara daftar yudisium",
+        "aku mau wisuda, gimana cara daftar yudisium",
+        "langkah langkah yudisium",
+        "apa saja syarat yudisium",
+        "syarat yudisium apa saja",
+        "kapan yudisium berlangsung",
+        "apakah ada persyaratan khusus untuk yudisium",
+        "dokumen apa saya yang harus disiapkan untuk yudisium",
+        "Apa saja administrasi yang dibutuhkan untuk pendaftaran Yudisium",
+        "Administrasi untuk perndaftaran yudisium",
+        "tolong gimana cara daftar yudusium",
+        "beritahu saya cara daftar yudisium",
+        "cara daftar yudisium",
+        "yudisium",
+        "prosedur pendaftaran yudisium",
+        "daftar yudisium",
+        "tutor daftar yudisium",
+        "info yudisium",
+        "syarat yudisium feb",
+        "syarat yudisium ftd"
+    ],
+    "responses" : [
+        "Prosedur pendaftaran yudisium : Mahasiswa mengunduh syarat yudisium di <a target='_blank' href='https://akademik.asia.ac.id/#unduhan'>Klik tautan ini</a>, lalu melengkapi semua persyaratan yang ada di formulir"
+    ]
+},
+{
+    "tag" : "Wisuda",
+    "patterns" : [
+        "Kapan wisuda",
+        "Tanggal berapa wisuda",
+        "Jadwal wisuda kapan ya",
+        "Wisuda bulan apa",
+        "Apakah jadwal wisuda sudah keluar",
+        "Kapan pelaksanaan wisuda",
+        "Wisudanya kapan",
+        "Kapan mulai daftar wisuda",
+        "Kapan acara wisuda berlangsung",
+        "Saya mau tahu jadwal wisuda",
+        "Kapan upacara wisuda",
+        "Wisuda terdekat tanggal berapa",
+        "Tahun ini wisuda kapan",
+        "Semester ini wisuda kapan",
+        "Kapan informasi wisuda diumumkan",
+        "Kapan bisa ikut wisuda",
+        "Pendaftaran wisuda kapan dibuka",
+        "Bulan apa biasanya ada wisuda"
+    ],
+    "responses" : [
+        "Periode Wisuda:<br>1. Wisuda Sarjana periode ke 27 akan diselenggarakan sekitar bulan November atau Desember 2024.<br>2. Wisuda Sarjana periode ke 28 akan diselenggarakan sekitar bulan Juni atau Juli 2025.<br><br>Wisuda akan diselenggarakan jika kuota mahasiswa yang mendaftar telah tepenuhi."
+    ]
+},
+{
+    "tag" : "KartuUjian",
+    "patterns" : [
+        "cetak kartu ujian dimana",
+        "cetak kartu uts dimana",
+        "cetak kartu uas dimana",
+        "cara print kartu uas gimana ya",
+        "cara print kartu uts gimana ya",
+        "cara print kartu ujian gimana ya",
+        "boleh minta link kartu ujian",
+        "kartu ujian",
+        "kartu uas",
+        "kartu uts",
+        "cetak kartu ujian",
+        "apa syarat dapat kartu ujian",
+        "link kartu ujian",
+        "link kartu uts",
+        "link kartu uas",
+        "info kartu ujian",
+        "kapan bisa dapat kartu ujian",
+        "apakah kartu uas ada di simaka",
+        "kartu uas apakah ada di simaka",
+        "dimana bisa dapat kartu ujian",
+        "Bagaimana cara mendownload kartu uts/uas",
+        "saya ingin mendapatkan kartu ujian, gimana caranya",
+        "mau cetak kartu",
+        "mau kartu ujian",
+        "pengen cetak kartu ujian"
+    ],
+    "responses" : [
+        "Silahkan akses link berikut untuk mendapatkan kartu ujian : <a target='_blank' href='http://bit.ly/kartuujianASIA'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "CutiKuliah",
+    "patterns" : [
+        "mau cuti kuliah",
+        "cara mengajukan cuti kuliah",
+        "cuti",
+        "cuti kuliah",
+        "berhenti kuliah",
+        "syarat cuti kuliah",
+        "bagaimana langkah - langkah untuk cuti kuliah",
+        "apa syarat cuti kuliah",
+        "syarat berhenti kuliah",
+        "berhenti kuliah sementara",
+        "apa prosedur cuti kuliah",
+        "gimana cara mengajukan cuti kuliah",
+        "Dimana saya dapat mengurus cuti kuliah",
+        "mengurus cuti kuliah",
+        "saya ingin cuti kuliah, apa yang harus dilakukan",
+        "gimana proses pengajuan cuti kuliah",
+        "apa syarat cuti kuliah","apa persyaratan untuk mengajukan cuti kuliah",
+        "apa yang diperlukan untuk cuti kuliah",
+        "dokumen cuti kuliah",
+        "berkas cuti kuliah",
+        "mengundurkan diri",
+        "apa saja yang harus kita dibawa saat pengajuan cuti kuliah",
+        "Untuk mengajukan cuti kuliah ke siapa",
+        "bagaimana cara mengundurkan diri dari kampus",
+        "saya ingin berhenti kuliah, apa yang harus dilakukan",
+        "proses pengunduran diri dari asia bagaimana",
+        "apa syarat untuk resign dari kampus",
+        "saya mau keluar dari kampus, tolong bantu."
+    ],
+    "responses" : [
+        "Prosedur Cuti Kuliah : <br> 1. Mahasiswa meminta form cuti kuliah ke admin Fakultas sesuai dengan Prodi. <br> 2. Meminta acc dari Dosen Wali, Prodi, Keuangan dan Dekan. <br> 3. Kemudian form difotocopy 2 kali dan diserahkan ke Admin Fakultas dan BAA sebagai arsip. <br> 4. Selesai."
+    ]
+},
+{
+    "tag" : "Batas_Cuti_Kuliah",
+    "patterns" : [
+        "Batas cuti kuliah",
+        "cuti kuliah maksimal berapa semester",
+        "Berapa kali boleh cuti kuliah",
+        "Berapa semester maksimal cuti kuliah",
+        "Batas cuti kuliah berapa semester",
+        "Apakah ada batas cuti kuliah",
+        "Cuti kuliah maksimal sampai semester berapa",
+        "Berapa lama boleh ambil cuti kuliah",
+        "Batas maksimal cuti selama kuliah berapa kali",
+        "Berapa semester saya bisa ajukan cuti",
+        "Cuti kuliah bisa berapa semester berturut-turut",
+        "Cuti kuliah ada batasannya nggak",
+        "Kalau sudah pernah cuti, masih bisa cuti lagi nggak",
+        "Boleh cuti kuliah lebih dari dua kali",
+        "Cuti kuliah bisa dilakukan setiap semester",
+        "Bisa cuti kuliah sampai kapan"
+    ],
+    "responses" : [
+        "Batas maksimal untuk cuti kuliah yaitu 2 semester berturut-turut. Jika melebihi, mahasiswa dianggap mengundurkan diri sesuai dengan ketentuan akademik yang berlaku."
+    ]
+},
+{
+    "tag" : "Prosedur_Aktif_kuliah",
+    "patterns" : [
+        "Bagaimana cara aktif kuliah setelah cuti",
+        "Prosedur kembali kuliah setelah cuti apa saja",
+        "Apa syarat mengurus status aktif kuliah dari cuti",
+        "Saya ingin aktif kuliah lagi, apa yang harus dilakukan",
+        "Langkah-langkah aktif kembali dari cuti kuliah",
+        "Gimana prosedur kembali kuliah dari cuti",
+        "Apa yang harus disiapkan untuk aktif kembali kuliah",
+        "Mengaktifkan kembali status kuliah setelah cuti bagaimana",
+        "Saya habis cuti, bagaimana cara mulai kuliah lagi",
+        "Kapan bisa mengurus aktif kembali setelah cuti",
+        "Aktif kuliah lagi setelah cuti prosesnya gimana",
+        "Apa yang harus dilakukan setelah masa cuti selesai",
+        "Setelah cuti, apakah harus daftar ulang"
+    ],
+    "responses" : [
+        "Untuk prosedur aktif kembali berkuliah setelah cuti, silakan menghubungi admin prodi terlebih dahulu. Admin prodi akan membantu proses pengajuan dan memberikan informasi dokumen yang diperlukan."
+    ]
+},
+{
+    "tag" : "PindahProgram",
+    "patterns" : [
+        "gimana cara pindah program studi",
+        "cara pindah program studi",
+        "apa syarat pindah program studi",
+        "saya ingin pindah jurusan, apa yang harus saya lakukan",
+        "pindah prodi",
+        "cara pindah prodi",
+        "cara pindah TI",
+        "cara pindah akuntansi",
+        "cara pindah ke prodi dkv",
+        "pindah ibm",
+        "pindah ti",
+        "pindah dkv",
+        "pindah sk",
+        "pindah manajemen",
+        "pindah akuntansi",
+        "pindah ke dkv",
+        "pindah prodi ibm",
+        "pindah prodi ti",
+        "pindah prodi dkv",
+        "pindah prodi sk",
+        "pindah prodi manajemen",
+        "pindah prodi akuntansi",
+        "pindah prodi ke ibm",
+        "pindah prodi ke ti",
+        "pindah prodi ke sk",
+        "pindah prodi ke dkv",
+        "pindah prodi ke manajemen",
+        "pindah prodi ke akuntansi",
+        "mau pindah prodi",
+        "mau pindah program studi",
+        "gimana caranya pindah prodi",
+        "bagaimana cara pindah ke prodi TI",
+        "pindah program studi",
+        "Bisakah dari manajemen pindah jurusan",
+        "pindah jurusan",
+        "apakah bisa dari ti pindah jurusan",
+        "apakah bisa dari sk pindah jurusan",
+        "apakah bisa dari dkc pindah jurusan",
+        "apakah bisa dari manajemen pindah jurusan",
+        "apakah bisa dari akuntansi pindah jurusan",
+        "apakah bisa dari ibm pindah jurusan",
+        "apakah bisa pindah prodi bagaimana caranya",
+        "prosedur pindah program studi",
+        "cara pindah program studi",
+        "gimana proses pengajuan pindah program studi",
+        "apa yang diperlukan untuk pindah program studi",
+        "dokumen pindah program studi",
+        "aku mau pindah ke prodi gimana ya caranya",
+        "apa yang perlu saya persiapkan jika ingin pindah prodi",
+        "apakah pindah prodi dapat dilakukan",
+        "tutor saya pindah ke prodi ibm",
+        "pindah ke prodi",
+        "Pindah prodi apa bisa hanya ke BAA saja?",
+        "Informasi mengenai pindah prodi"
+    ],
+    "responses" : [
+        "Prosedur Pindah Prodi : <br> 1. Mahasiswa meminta form pindah program studi ke admin Fakultas sesuai dengan Prodi. <br> 2. Meminta acc dari Dosen Wali, Prodi, Keuangan dan Dekan. <br> 3. Kemudian form difotocopy 2 kali dan diserahkan ke Admin Fakultas dan BAA sebagai arsip. <br> 4. Selesai."
+    ]
+},
+{
+    "tag" : "Akreditasi_Asia",
+    "patterns" : [
+        "akreditasi asia",
+        "sertifikat akreditasi asia",
+        "mau lihat akreditasi kampus",
+        "cek akreditasi asia",
+        "akreditasi kampus",
+        "apa akreditasi asia",
+        "akreditasi asia ini apa",
+        "asia terakreditasi apa",
+        "detail akreditasi milik asia",
+        "sertifikat akreditasi institut asia",
+        "cara melihat akreditasi kampus",
+        "Cara lihat akreditasi asia",
+        "Lihat akreditasi asia",
+        "Akreditasi Institut Asia Malang",
+        "status akreditasi di asia apa",
+        "berapa lama akreditasi asia berlaku",
+        "Berapa nilai akreditasi kampus Asia",
+        "Bagaimana cara aku bisa lihat akreditasi asia",
+        "Cek akreditasi institusi Institut Asia",
+        "Status akreditasi resmi dari kampus Asia apa",
+        "Berapa nilai akreditasi kampus asia",
+        "Lihat dimana akreditasi kampus asia"
+    ],
+    "responses" : [
+        "Untuk melihat detail akreditasi kampus kamu dapat melihatnya di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/uploads/akreditasi/65d7eec538b1d.pdf'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "Akreditasi_TI",
+    "patterns" : [
+        "akreditasi prodi teknik informatika",
+        "akreditasi teknik informatika",
+        "akreditasi prodi ti",
+        "Akreditasi prodi TI apa",
+        "Akreditasi Teknik Informatika Institut Asia",
+        "Prodi Teknik Informatika akreditasinya apa",
+        "Apa akreditasi jurusan TI di Asia",
+        "Saya mau cek akreditasi TI Institut Asia",
+        "Jurusan Teknik Informatika terakreditasi apa",
+        "Status akreditasi program studi TI Asia",
+        "Cek akreditasi prodi TI Asia Malang",
+        "TI Institut Asia akreditasinya apa",
+        "Apa akreditasi dari jurusan Teknik Informatika",
+        "Berapa nilai akreditasi prodi Teknik Informatika di Asia",
+        "Sertifikat akreditasi program studi TI Institut Asia",
+        "Akreditasi terbaru prodi TI Institut Asia",
+        "Teknik Informatika akreditasinya sudah keluar",
+        "Apakah TI di Institut Asia sudah terakreditasi",
+        "Dimana lihat akreditasi prodi TI"
+    ],
+    "responses" : [
+        "Untuk melihat detail akreditasi prodi Teknik Informatika kamu dapat melihatnya di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/uploads/akreditasi/65c31021cdc0b.pdf'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag": "Akreditasi_SK",
+    "patterns": [
+        "akreditasi sk",
+        "akreditasi prodi SK",
+        "Akreditasi prodi Sistem Komputer apa",
+        "Akreditasi SK Institut Asia",
+        "Prodi Sistem Komputer akreditasinya apa",
+        "Apa akreditasi jurusan SK di Asia",
+        "Saya mau cek akreditasi SK Institut Asia",
+        "Jurusan Sistem Komputer terakreditasi apa",
+        "Status akreditasi program studi SK Asia",
+        "Cek akreditasi prodi SK Asia Malang",
+        "SK Institut Asia akreditasinya apa",
+        "Apa akreditasi dari jurusan Sistem Komputer",
+        "Berapa nilai akreditasi prodi Sistem Komputer di Asia",
+        "Sertifikat akreditasi program studi SK Institut Asia",
+        "Akreditasi terbaru prodi SK Institut Asia",
+        "Sistem Komputer akreditasinya sudah keluar",
+        "Apakah SK di Institut Asia sudah terakreditasi",
+        "Dimana lihat akreditasi prodi SK"
+    ],
+    "responses": [
+        "Untuk melihat detail akreditasi prodi Sistem Komputer kamu dapat melihatnya di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/uploads/akreditasi/65c30a4898229.pdf'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag": "Akreditasi_DKV",
+    "patterns": [
+        "Akreditasi DKV",
+        "Akreditasi prodi DKV apa",
+        "Akreditasi Desain Komunikasi Visual Institut Asia",
+        "Prodi DKV akreditasinya apa",
+        "Apa akreditasi jurusan DKV di Asia",
+        "Saya mau cek akreditasi DKV Institut Asia",
+        "Jurusan Desain Komunikasi Visual terakreditasi apa",
+        "Status akreditasi program studi DKV Asia",
+        "Cek akreditasi prodi DKV Asia Malang",
+        "DKV Institut Asia akreditasinya apa",
+        "Apa akreditasi dari jurusan DKV",
+        "Berapa nilai akreditasi prodi DKV di Asia",
+        "Sertifikat akreditasi program studi DKV Institut Asia",
+        "Akreditasi terbaru prodi DKV Institut Asia",
+        "Desain Komunikasi Visual akreditasinya sudah keluar",
+        "Apakah DKV di Institut Asia sudah terakreditasi",
+        "Dimana lihat akreditasi prodi DKV"
+    ],
+    "responses": [
+        "Untuk melihat detail akreditasi prodi Desain Komunikasi Visual kamu dapat melihatnya di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/uploads/akreditasi/66bc25370cdaf.jpg'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag": "Akreditasi_Akutansi",
+    "patterns": [
+        "Akreditasi Akuntansi",
+        "akreditasi prodi akuntansi",
+        "Akreditasi prodi Akuntansi apa",
+        "Akreditasi Akuntansi Institut Asia",
+        "Prodi Akuntansi akreditasinya apa",
+        "Akreditasi jurusan Akuntansi di Asia",
+        "Saya mau cek akreditasi Akuntansi Institut Asia",
+        "Jurusan Akuntansi terakreditasi apa",
+        "Status akreditasi program studi Akuntansi Asia",
+        "Cek akreditasi prodi Akuntansi Asia Malang",
+        "Akuntansi Institut Asia akreditasinya apa",
+        "Akreditasi dari jurusan Akuntansi",
+        "Nilai akreditasi prodi Akuntansi di Asia",
+        "Sertifikat akreditasi program studi Akuntansi Institut Asia",
+        "Akreditasi terbaru prodi Akuntansi Institut Asia",
+        "Akuntansi akreditasinya sudah keluar",
+        "Akuntansi di Institut Asia sudah terakreditasi",
+        "Lihat akreditasi prodi Akuntansi"
+    ],
+    "responses": [
+        "Untuk melihat detail akreditasi prodi Akuntansi kamu dapat melihatnya di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/uploads/akreditasi/6763656759cb3.jpg'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag": "Akreditasi_Manajemen",
+    "patterns": [
+        "Akreditasi Manajemen",
+        "Akreditasi prodi manajemen",
+        "Akreditasi prodi Manajemen apa",
+        "Akreditasi Manajemen Institut Asia",
+        "Prodi Manajemen akreditasinya apa",
+        "Akreditasi jurusan Manajemen di Asia",
+        "Saya mau cek akreditasi Manajemen Institut Asia",
+        "Jurusan Manajemen terakreditasi apa",
+        "Status akreditasi program studi Manajemen Asia",
+        "Cek akreditasi prodi Manajemen Asia Malang",
+        "Manajemen Institut Asia akreditasinya apa",
+        "Akreditasi dari jurusan Manajemen",
+        "Nilai akreditasi prodi Manajemen di Asia",
+        "Sertifikat akreditasi program studi Manajemen Institut Asia",
+        "Akreditasi terbaru prodi Manajemen Institut Asia",
+        "Manajemen akreditasinya sudah keluar",
+        "Manajemen di Institut Asia sudah terakreditasi",
+        "Lihat akreditasi prodi Manajemen"
+    ],
+    "responses": [
+        "Untuk melihat detail akreditasi prodi Manajemen kamu dapat melihatnya di link berikut : <a target='_blank' href='https://akademik.asia.ac.id/uploads/akreditasi/66c443f46ee5b.jpg'>Klik tautan ini</a>"
+    ]
+},
+{
+    "tag" : "Kontak",
+    "patterns" : [
+        "Info lebih lanjut",
+        "Informasi mengenai kontak BAA Asia dimana",
+        "Apakah ada kontak pihak kampus yang bisa dihubungi",
+        "cara menghubungi BAA gimana",
+        "Mau minta nomor wa baa",
+        "kontak",
+        "kontak yang dapat dihubungi",
+        "kontak yang dapat dihubungi dari baa",
+        "nomor kontak",
+        "kontak baa",
+        "bagaimana aku bisa menghubungi baa",
+        "aku minta kontak baa",
+        "nomor universitas",
+        "nomor kampus",
+        "bagaimana cara menghubungi baa",
+        "no kontak",
+        "nomor baa",
+        "nomer wa baa",
+        "nomer baa",
+        "no baa",
+        "no wa akademik berapa",
+        "no wa baa",
+        "no wa baa dong",
+        "no wa kampus",
+        "no wa asia",
+        "no wa baa berapa",
+        "no whatsapp baa",
+        "berapa nomor mu",
+        "bisakah saya dapat nomor wa mu",
+        "no wa",
+        "nomor whatsapp",
+        "nomor",
+        "whatsapp",
+        "telp",
+        "telepon",
+        "minta nomor kampus",
+        "Berapa nomer Biro Administrasi"
+    ],
+    "responses" : [
+        "Kamu bisa menghubungi WhatsApp Center Akademik di nomor 085175134514, dan juga bisa menghubungi saya melalui email akademik@asia.ac.id"
+    ]
+},
+{
+    "tag": "barang_hilang",
+    "patterns": [
+      "Saya kehilangan barang",
+      "Ada barang hilang",
+      "Dimana saya melaporkan barang hilang",
+      "Saya tidak menemukan barang saya",
+      "Barang saya hilang, apa yang harus saya lakukan",
+      "Kemana saya harus melapor jika barang saya hilang",
+      "Saya kehilangan dompet, kemana harus lapor",
+      "Siapa yang bisa saya hubungi untuk barang hilang",
+      "Bagaimana cara melaporkan barang hilang",
+      "Apakah ada tempat untuk melapor barang hilang",
+      "Jika saya kehilangan sesuatu, kemana melapornya",
+      "Tolong bantu saya, barang saya hilang",
+      "Apa langkah pertama jika barang saya hilang",
+      "Kemana saya harus pergi untuk barang hilang",
+      "Adakah prosedur untuk melaporkan barang hilang",
+      "Saya tidak tahu lokasi barang saya, kemana harus melapor",
+      "Apakah barang hilang bisa dilaporkan ke BAA",
+      "Dimana tempat melaporkan kehilangan barang di kampus",
+      "Saya butuh bantuan untuk menemukan barang yang hilang",
+      "Apakah BAA menangani barang hilang"
+    ],
+    "responses": [
+      "Silakan melaporkan barang hilang Anda ke Biro Administrasi Akademik."
+    ]
+  }  
+]
+}
