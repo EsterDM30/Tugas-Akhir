@@ -1,0 +1,8 @@
+//Install pip library untuk menjalankan program
+
+flask
+nltk
+numpy
+sympy
+torch
+tqdm
